@@ -94,6 +94,8 @@ Thank you for your patience! Here's the revised section:
 ---
 
 This section provides instructions for adding the `.exe` file to the system's environment variable for both Windows and Linux operating systems. The executable name is set to `downloadai.exe` for Windows and `downloadai` for Linux.
+
+
 8. **Execute the Script:**
 
    Run the script to initiate the download process. Use the following command:
@@ -133,7 +135,9 @@ Follow the on-screen prompts to proceed with the download.
 
 This section offers a detailed guide for executing the script, ensuring a smooth experience for users, with clear instructions and prompts, including platform-specific commands.
 
-
+**command's**
+  for exit '0'
+  for options 'as shown on program'
 
 ## Logging and Troubleshooting 📝
 
