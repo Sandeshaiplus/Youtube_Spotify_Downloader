@@ -14,9 +14,8 @@ This Python script empowers you to effortlessly download your favorite tracks fr
 ## Prerequisites 🛠️
 
 - **Python 3:** Ensure Python 3 is installed on your system.
-- **Dependencies:** Install required dependencies by executing `pip install -r requirements.txt`.
-- **yt-dlp:** Install yt-dlp for downloading YouTube videos. Use `pip install yt-dlp`.
-- **Spotify-DL:** Install Spotify-DL for downloading Spotify tracks. Execute `pip install spotify-dl`.
+- **Path:** Ensure to give the correct path of the executable you downloaded to the query when program asks
+
 
 ## Usage 📋
 
