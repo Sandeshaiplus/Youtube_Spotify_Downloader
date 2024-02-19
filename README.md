@@ -25,13 +25,15 @@ This Python script empowers you to effortlessly download your favorite tracks fr
       path to downloadai or ./downloadai if in current dir!
    ```
 -**FFMPEG:** Make sure to have ffmpeg installed as plays a crucial role in merging the downloaded data.
--**For Windows:**
- ```bash
-      pip install ffmpeg
-   ```
+-**For Windows:** Download ffmpeg from [here](https://www.gyan.dev/ffmpeg/builds/ffmpeg-git-essentials.7z) or use the given one by me simply extract the ffmpeg.zip and add the bin folder to environment variable
 -**For linux:**
  ```bash
-      Sudo apt install ffmpeg
+      sudo apt install ffmpeg
+   ```
+- **if error:**
+```bash
+     sudo apt update &&  apt upgrade
+     sudo apt install ffmpeg --fix-missing
    ```
 
 ## Usage 📋
