@@ -15,6 +15,15 @@ This Python script empowers you to effortlessly download your favorite tracks fr
 
 - **Python 3:** Ensure Python 3 is installed on your system.
 - **Path:** Ensure to give the correct path of the executable you downloaded to the query when program asks
+- **enter:** Enter the full path of the exe location
+- For Windows: 
+  ```bash
+      path to downloadai.exe
+   ```
+  -For Linux:
+  ```bash
+      path to downloadai or ./downloadai if in current dir!
+   ```
 
 
 ## Usage 📋
