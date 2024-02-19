@@ -137,12 +137,13 @@ This section offers a detailed guide for executing the script, ensuring a smooth
 
 **command's**
 
-  for exit ```bash
+  for exit
+  ```bash
           00
-   ```.
------
-  for options 'as shown on program'.
+   ```
 
+  for options 'as shown on program'.
+---------------------
 ## Logging and Troubleshooting 📝
 
 - All activities are meticulously logged in `download_log.log`, facilitating easy troubleshooting and error identification.
