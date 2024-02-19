@@ -37,7 +37,7 @@ Certainly! Here's the revised section with emojis and platform-specific instruct
    Change your current directory to the location of the YouTube & Spotify Downloader script.
    
    ```bash
-   cd path_to_your_youtube_spotify_downloader
+   cd Youtube_Spotify_Downloader
    ```
 Thank you for your patience! Here's the revised section:
 
