@@ -29,6 +29,33 @@ This Python script empowers you to effortlessly download your favorite tracks fr
 
 
 -**For Windows:** Download ffmpeg from [here](https://www.gyan.dev/ffmpeg/builds/ffmpeg-git-full.7z) or use the given one by me simply extract the ffmpeg.zip and add the bin folder to environment variable
+# Setting FFmpeg Bin Folder in Windows Environment Variable
+
+🎬 **FFmpeg** is a powerful multimedia framework that can decode, encode, transcode, mux, demux, stream, filter, and play almost any type of media file. To use FFmpeg commands conveniently from any directory in the command prompt, you can add its bin folder to the system's environment variables.
+
+## Instructions
+
+🔍 **Locate FFmpeg Bin Folder**: Find the folder where FFmpeg binaries are installed on your system. This is typically a folder named `bin` within the FFmpeg installation directory.
+
+🖥️ **Access Environment Variables**:
+   - Right-click on "This PC" or "My Computer" and select "Properties".
+   - Click on "Advanced system settings" and then "Environment Variables".
+
+✏️ **Edit System Variables**:
+   - Under "System variables", find and select the `Path` variable, then click "Edit".
+
+➕ **Add FFmpeg Bin Folder**:
+   - Click "New" and enter the path to the FFmpeg bin folder (e.g., `C:\ffmpeg\bin`).
+
+✔️ **Confirm Changes**:
+   - Click "OK" on all open windows to save your changes.
+
+🔍 **Verify Installation**:
+   - Open a new command prompt window and type `ffmpeg`. You should see FFmpeg command-line options printed in the terminal if the installation was successful.
+
+## Example
+```batch
+C:\Users\YourUsername> ffmpeg
 
 -**For linux:**
  ```bash
@@ -45,6 +72,7 @@ This Python script empowers you to effortlessly download your favorite tracks fr
       sudo apt install wget
       wget https://github.com/Sandeshaiplus/Youtube_Spotify_Downloader/releases/download/version01/ffmpeg.zip
       unzip ffmpeg.zip
+      export PATH="/path/toffmpeg/bin:$PATH"
    ```
 
 ## Usage 📋
