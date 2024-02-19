@@ -22,31 +22,118 @@ This Python script empowers you to effortlessly download your favorite tracks fr
 
 1. **Clone Repository:**
    ```bash
-   git clone https://github.com/sandeshkumargupta/youtube_spotify_downloader.git
-   cd youtube_spotify_downloader
+   git clone https://github.com/Sandeshaiplus/Youtube_Spotify_Downloader.git
+   cd Youtube_Spotify_Downloader
    ```
 
-2. **Run Script:**
-   - To download content from Spotify:
+Certainly! Here's the revised section with emojis and platform-specific instructions:
+
+---
+
+## Run Script 🚀
+
+1. **Navigate to the Repository:**
+
+   Change your current directory to the location of the YouTube & Spotify Downloader script.
+   
+   ```bash
+   cd path_to_your_youtube_spotify_downloader
+   ```
+Thank you for your patience! Here's the revised section:
+
+---
+
+## Add Executable to Environment Variable 🛠️
+
+### For Windows:
+
+1. **Locate the Executable:**
+   
+   Find the `downloadai.exe` file in your project directory.
+
+2. **Add to Path:**
+
+   - Right-click on the **Start** button and select **System**.
+   - Click on **Advanced system settings**.
+   - In the System Properties window, click on **Environment Variables**.
+   - Under System Variables, select **Path**, then click **Edit**.
+   - Click **New** and add the directory path where your `downloadai.exe` file is located.
+   - Click **OK** to save the changes.
+
+3. **Verify Installation:**
+
+   Open a new command prompt and type `downloadai.exe`. If the installation was successful, the command should execute without errors.
+
+### For Linux:
+
+4. **Locate the Executable:**
+
+   Find the executable file named `downloadai` in your project directory.
+
+5. **Move to Bin Directory:**
+
+   - Open a terminal and navigate to the directory containing your executable.
+   - Copy the executable to the `/usr/local/bin` directory using the following command:
+   
      ```bash
-     python downloader.py
+     sudo cp downloadai /usr/local/bin/
      ```
 
-   - To download content from YouTube:
-     ```bash
-     python downloader.py
-     ```
+6. **Provide Execution Permissions:**
 
-3. **Follow on-screen instructions to proceed with downloading.**
+   Ensure that the executable has the necessary permissions to run. If not, grant execution permissions using the following command:
 
-## Input Options 📥
+   ```bash
+   sudo chmod +x /usr/local/bin/downloadai
+   ```
 
-- **YouTube Download:**
-  - Enter the song name to search for and download from YouTube.
-  - Alternatively, provide the YouTube link of the desired track.
+7. **Verify Installation:**
 
-- **Spotify Download:**
-  - Provide the Spotify link of the song to be downloaded.
+   Open a new terminal and type `downloadai`. If the installation was successful, the command should execute without errors.
+
+---
+
+This section provides instructions for adding the `.exe` file to the system's environment variable for both Windows and Linux operating systems. The executable name is set to `downloadai.exe` for Windows and `downloadai` for Linux.
+8. **Execute the Script:**
+
+   Run the script to initiate the download process. Use the following command:
+
+   - For Windows:
+   
+   ```bash
+   downloadai.exe
+   ```
+
+   - For Linux:
+   
+   ```bash
+   ./downloadai
+   ```
+
+9. ***Follow On-screen Instructions:***
+
+Upon running the script, you'll be prompted with options for downloading content.
+
+For Spotify downloads:
+Enter the Spotify song link when prompted.
+The script will notify you of any errors and provide guidance on correcting them.
+For YouTube downloads:
+Choose between downloading by song name or YouTube link.
+If downloading by name:
+Enter the song name.
+Provide the download location when prompted, or leave it blank for the current directory by simply pressing Enter.
+The script will default to the current working directory (CWD) if no location is specified.
+If downloading by YouTube link:
+Enter the YouTube video link.
+Similarly, provide the download location if prompted.
+The script will validate inputs and provide feedback for any corrections needed.
+Follow the on-screen prompts to proceed with the download.
+
+---
+
+This section offers a detailed guide for executing the script, ensuring a smooth experience for users, with clear instructions and prompts, including platform-specific commands.
+
+
 
 ## Logging and Troubleshooting 📝
 
@@ -54,7 +141,7 @@ This Python script empowers you to effortlessly download your favorite tracks fr
 
 ## Contributors 🤝
 
-- [Sandesh Kumar](https://github.com/sandeshkumargupta)
+- [Sandesh Kumar](https://github.com/Sandeshaiplus)
 
 ## Support ℹ️
 
