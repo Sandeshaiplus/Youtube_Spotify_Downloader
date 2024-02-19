@@ -72,7 +72,7 @@ C:\Users\YourUsername> ffmpeg
       sudo apt install wget
       wget https://github.com/Sandeshaiplus/Youtube_Spotify_Downloader/releases/download/version01/ffmpeg.zip
       unzip ffmpeg.zip
-      export PATH="/path/toffmpeg/bin:$PATH"
+      export PATH="/path/to/ffmpeg/bin:$PATH"
    ```
 
 ## Usage 📋
