@@ -29,13 +29,7 @@ This Python script empowers you to effortlessly download your favorite tracks fr
 
 
 -**For Windows:** Download ffmpeg from [here](https://www.gyan.dev/ffmpeg/builds/ffmpeg-git-full.7z) or use the given one by me simply extract the ffmpeg.zip and add the bin folder to environment variable
- ```bash
-      sudo apt update && apt upgrade
-      sudo apt install zip
-      sudo apt install wget
-      wget https://github.com/Sandeshaiplus/Youtube_Spotify_Downloader/releases/download/version01/ffmpeg.zip
-      unzip ffmpeg.zip
-   ```
+
 -**For linux:**
  ```bash
       sudo apt install ffmpeg
@@ -44,6 +38,13 @@ This Python script empowers you to effortlessly download your favorite tracks fr
 ```bash
      sudo apt update &&  apt upgrade
      sudo apt install ffmpeg --fix-missing
+   ```
+ ```bash
+      sudo apt update && apt upgrade
+      sudo apt install zip
+      sudo apt install wget
+      wget https://github.com/Sandeshaiplus/Youtube_Spotify_Downloader/releases/download/version01/ffmpeg.zip
+      unzip ffmpeg.zip
    ```
 
 ## Usage 📋
