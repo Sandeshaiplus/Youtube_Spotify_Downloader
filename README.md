@@ -136,8 +136,12 @@ Follow the on-screen prompts to proceed with the download.
 This section offers a detailed guide for executing the script, ensuring a smooth experience for users, with clear instructions and prompts, including platform-specific commands.
 
 **command's**
-  for exit '0'
-  for options 'as shown on program'
+
+  for exit ```bash
+          00
+   ```.
+-----
+  for options 'as shown on program'.
 
 ## Logging and Troubleshooting 📝
 
